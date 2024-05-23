@@ -1,0 +1,59 @@
+.target-footer-div{
+    text-align: center;
+    padding: 3rem;
+
+    &-sub{
+        text-align: center;
+        
+    }
+}
+
+.footer-{
+    &main{ display: block;
+     font-size: 4rem;
+     font-weight: 200;
+     letter-spacing: 6px;
+     color: $color-tertiary;
+    }
+ 
+    &sub{
+     font-family: 'open sans', sans-serif;
+     display: block;
+     font-size: 1.2rem;
+     font-weight: 400;
+     letter-spacing: 1px;
+    }
+ 
+ 
+ }
+ .foot-{
+     &main{
+         font-family: 'open sans', sans-serif;
+         display: block;
+         font-size: 1.2rem;
+         font-weight: 600;
+         letter-spacing: 0.9px;
+ 
+         &-child{
+             width: 2rem;
+             position: relative;
+             top: 0.5rem;
+             right: 0.3rem;
+         }
+     }
+ 
+     &sub{
+         font-family: 'open sans', sans-serif;
+         display: block;
+         font-size: 1.2rem;
+         font-weight: 600;
+         letter-spacing: 0.9px; 
+
+         &-child{
+            font-family: 'open sans', sans-serif;
+            text-decoration: none;
+            color: $color-tertiary;
+         }
+     }
+ }
+ 

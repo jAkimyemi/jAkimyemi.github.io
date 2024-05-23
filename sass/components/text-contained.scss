@@ -1,0 +1,45 @@
+h2{
+    color: $color-primary;
+    padding-top: 3rem;
+    text-align: center;
+    font-weight: 200;
+}
+
+.target-list{
+    color: $color-primary;
+    font-family: 'open sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    animation-name: movefromleft;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    backface-visibility: hidden;
+    
+}
+
+.target-link{
+    color: $color-secondary;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.target-text{
+    text-align: center;
+    padding-top: 3rem;
+    color: $color-tertiary;
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+.text-div{
+    color: $color-tertiary;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+
+}
